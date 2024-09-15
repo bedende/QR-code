@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer {
+    box-sizing: border-box;
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    padding: 0 11px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inner {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: grey;
+}
